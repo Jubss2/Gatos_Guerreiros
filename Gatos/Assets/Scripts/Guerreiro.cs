@@ -10,7 +10,6 @@ public class Guerreiro : Gatos, ITakeDamage
     public void MaisExp(float mexp)
     {
         float x;
-        //n lembro muito bem se era assim q funcionava :O
         _exp = mexp;
         x = mexp * 1.1f;
         _exp = x;
