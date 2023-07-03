@@ -13,7 +13,7 @@ public class Controllerat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("space"))
+        if(Input.GetKeyDown(KeyCode.Z))
             AnimFruta?.Invoke();
         
     

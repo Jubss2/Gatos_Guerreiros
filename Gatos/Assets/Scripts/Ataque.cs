@@ -26,6 +26,7 @@ public class Ataque : MonoBehaviour
     // Update is called once per frame
      public void AnimationFru()
       {
-         _animator.SetTrigger("passaro");
+         _animator.SetTrigger("ataque");
+         _animator.Play("ataque");
      }
 }
